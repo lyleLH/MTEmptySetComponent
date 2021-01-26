@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  使用Category实现对DZEmptySet的封装，完成空白页面占位提示功能，使用起来更简单
                        DESC
 
   s.homepage         = 'https://github.com/lyleLH'
