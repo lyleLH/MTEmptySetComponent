@@ -1,10 +1,15 @@
+source 'http://gitlab.yeahka.com/App/iOS/YeahkaNativeComSpecsIndex.git'
+source 'https://cdn.cocoapods.org/'
+
+
 use_frameworks!
 
 platform :ios, '9.0'
 
 target 'MTEmptySetComponent_Example' do
   pod 'MTEmptySetComponent', :path => '../'
-
+  pod 'Masonry'
+  pod 'MJRefresh', '~> 3.5.0'
   target 'MTEmptySetComponent_Tests' do
     inherit! :search_paths
 

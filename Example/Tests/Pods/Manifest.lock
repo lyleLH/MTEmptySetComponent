@@ -1,0 +1,31 @@
+PODS:
+  - DZNEmptyDataSet (1.8.1)
+  - Masonry (1.1.0)
+  - MJRefresh (3.5.0)
+  - MTEmptySetComponent (0.1.0):
+    - DZNEmptyDataSet
+
+DEPENDENCIES:
+  - Masonry
+  - MJRefresh (~> 3.5.0)
+  - MTEmptySetComponent (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - DZNEmptyDataSet
+    - Masonry
+    - MJRefresh
+
+EXTERNAL SOURCES:
+  MTEmptySetComponent:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
+  MTEmptySetComponent: b8b91c5bbf295bc6f4299205f607335b62649471
+
+PODFILE CHECKSUM: 0425b935a53bc77c84d2350088c83b1cfb3852c7
+
+COCOAPODS: 1.10.0

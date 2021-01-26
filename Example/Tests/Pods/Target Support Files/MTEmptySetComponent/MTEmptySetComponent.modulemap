@@ -1,0 +1,6 @@
+framework module MTEmptySetComponent {
+  umbrella header "MTEmptySetComponent-umbrella.h"
+
+  export *
+  module * { export * }
+}
